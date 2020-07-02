@@ -6,7 +6,7 @@ if __name__ == '__main__':
     pass
 
 # get Connection
-connection = cx_Oracle.connect("S865745", "student", "localhost/oracle")
+connection = cx_Oracle.connect(username, password, "localhost/oracle")
 cursor = connection.cursor()
 
 print ("Database connection established")
