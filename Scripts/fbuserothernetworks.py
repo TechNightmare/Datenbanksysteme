@@ -8,7 +8,7 @@ if __name__ == '__main__':
 print ("Database connection established")
 
 # get Connection
-connection = cx_Oracle.connect("S865745", "student", "localhost/oracle")
+connection = cx_Oracle.connect(username, password, "localhost/oracle")
 cursor = connection.cursor()
 
 y = []
